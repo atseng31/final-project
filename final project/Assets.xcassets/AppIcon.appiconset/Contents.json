@@ -6,6 +6,7 @@
       "size" : "20x20"
     },
     {
+      "filename" : "Temp-60x60.jpeg",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "20x20"
@@ -16,6 +17,7 @@
       "size" : "29x29"
     },
     {
+      "filename" : "Temp-87x87.jpeg",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "29x29"
@@ -48,6 +50,7 @@
       "size" : "20x20"
     },
     {
+      "filename" : "Temp-40x40.jpeg",
       "idiom" : "ipad",
       "scale" : "2x",
       "size" : "20x20"
@@ -58,6 +61,7 @@
       "size" : "29x29"
     },
     {
+      "filename" : "Temp-58x58.jpeg",
       "idiom" : "ipad",
       "scale" : "2x",
       "size" : "29x29"
@@ -68,6 +72,7 @@
       "size" : "40x40"
     },
     {
+      "filename" : "Temp-80x80.jpeg",
       "idiom" : "ipad",
       "scale" : "2x",
       "size" : "40x40"
@@ -78,11 +83,13 @@
       "size" : "76x76"
     },
     {
+      "filename" : "Temp-152x152.jpeg",
       "idiom" : "ipad",
       "scale" : "2x",
       "size" : "76x76"
     },
     {
+      "filename" : "Temp-167x167.jpeg",
       "idiom" : "ipad",
       "scale" : "2x",
       "size" : "83.5x83.5"
