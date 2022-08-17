@@ -42,12 +42,8 @@
                                     </attributedString>
                                 </buttonConfiguration>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="download-1" translatesAutoresizingMaskIntoConstraints="NO" id="LXH-7y-MqX">
-                                <rect key="frame" x="353" y="54" width="28" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Avn-HX-KXf">
-                                <rect key="frame" x="389" y="54" width="13" height="808"/>
+                                <rect key="frame" x="389" y="44" width="13" height="808"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <viewLayoutGuide key="contentLayoutGuide" id="Jzi-J4-dRR"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="w0e-64-0UY"/>
@@ -67,11 +63,32 @@
                                     </attributedString>
                                 </buttonConfiguration>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m9d-1b-rvw">
-                                <rect key="frame" x="66" y="149" width="49" height="87"/>
+                            <button opaque="NO" contentMode="center" fixedFrame="YES" enabled="NO" highlighted="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" adjustsImageSizeForAccessibilityContentSizeCategory="YES" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="odv-bO-Vb9">
+                                <rect key="frame" x="332" y="47" width="49" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                </accessibility>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="2976215"/>
+                                <buttonConfiguration key="configuration" style="plain" image="3144456-1" title="">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="small"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" adjustsImageSizeForAccessibilityContentSizeCategory="YES" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m9d-1b-rvw">
+                                <rect key="frame" x="27" y="51" width="26" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <edgeInsets key="layoutMargins" top="8" left="-8" bottom="8" right="8"/>
+                                <inset key="imageEdgeInsets" minX="-23" minY="-14" maxX="-13" maxY="-20"/>
+                                <size key="titleShadowOffset" width="-30" height="-30"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="2976215-1" imagePadding="0.0">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="1" scale="small"/>
+                                    <attributedString key="attributedTitle"/>
+                                    <directionalEdgeInsets key="contentInsets" top="0.0" leading="-7" bottom="-5" trailing="0.0"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="r2W-Ko-RGT" kind="show" id="XTm-mR-tfd"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -86,12 +103,13 @@
         <scene sceneID="twA-iE-m3m">
             <objects>
                 <viewController id="r2W-Ko-RGT" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="GFY-Kg-R1c">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <view key="view" userInteractionEnabled="NO" contentMode="scaleToFill" id="GFY-Kg-R1c">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="8sR-Cg-GAK"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="4ET-Nf-yxk"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fr9-zN-cNf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -99,8 +117,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="2976215" width="128" height="128"/>
-        <image name="download-1" width="128" height="128"/>
+        <image name="2976215-1" width="28" height="28"/>
+        <image name="3144456-1" width="28" height="28"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
