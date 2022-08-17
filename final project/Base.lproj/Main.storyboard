@@ -11,7 +11,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="final_project" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalTransitionStyle="crossDissolve" modalPresentationStyle="fullScreen" id="BYZ-38-t0r" customClass="ViewController" customModule="final_project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -24,7 +24,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XOa-0n-43w">
-                                <rect key="frame" x="197" y="200" width="123" height="45"/>
+                                <rect key="frame" x="197" y="210" width="123" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.83137255909999996" green="0.42352938649999999" blue="0.59607845540000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
@@ -41,38 +41,9 @@
                                         </fragment>
                                     </attributedString>
                                 </buttonConfiguration>
-                            </button>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Avn-HX-KXf">
-                                <rect key="frame" x="389" y="44" width="13" height="808"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <viewLayoutGuide key="contentLayoutGuide" id="Jzi-J4-dRR"/>
-                                <viewLayoutGuide key="frameLayoutGuide" id="w0e-64-0UY"/>
-                            </scrollView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vZW-uO-Dk0">
-                                <rect key="frame" x="39" y="54" width="172" height="41"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" systemColor="labelColor"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="&lt;&lt;APP NAME&gt;&gt;">
-                                            <attributes>
-                                                <font key="NSFont" size="16" name="Rockwell-Regular"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </buttonConfiguration>
-                            </button>
-                            <button opaque="NO" contentMode="center" fixedFrame="YES" enabled="NO" highlighted="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" adjustsImageSizeForAccessibilityContentSizeCategory="YES" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="odv-bO-Vb9">
-                                <rect key="frame" x="332" y="47" width="49" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <accessibility key="accessibilityConfiguration">
-                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
-                                </accessibility>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="3144456-1" title="">
-                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="small"/>
-                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="Efs-EQ-Koi" kind="show" id="ehs-7e-oJZ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" adjustsImageSizeForAccessibilityContentSizeCategory="YES" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m9d-1b-rvw">
                                 <rect key="frame" x="27" y="51" width="26" height="35"/>
@@ -87,17 +58,105 @@
                                     <directionalEdgeInsets key="contentInsets" top="0.0" leading="-7" bottom="-5" trailing="0.0"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="r2W-Ko-RGT" kind="show" id="XTm-mR-tfd"/>
+                                    <segue destination="r2W-Ko-RGT" kind="show" id="qGc-qo-dwq"/>
                                 </connections>
+                            </button>
+                            <button opaque="NO" contentMode="center" fixedFrame="YES" enabled="NO" highlighted="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" adjustsImageSizeForAccessibilityContentSizeCategory="YES" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="odv-bO-Vb9">
+                                <rect key="frame" x="332" y="47" width="49" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                </accessibility>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="3144456-1" title="">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="small"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vZW-uO-Dk0">
+                                <rect key="frame" x="27" y="51" width="200" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Wear to Find">
+                                            <attributes>
+                                                <font key="NSFont" size="20" name="SFMono-Semibold"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <attributedString key="attributedSubtitle"/>
+                                </buttonConfiguration>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.68235301969999995" green="0.8078432083" blue="0.83529412749999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
+                    <navigationItem key="navigationItem" id="cIy-2g-IlT"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="18.840579710144929" y="83.705357142857139"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="KPg-vt-wBu">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="Efs-EQ-Koi" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KbD-r7-1o2">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JHT-No-mfS">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vWC-Qf-5bm">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mwr-Cp-pPu">
+                                                <rect key="frame" x="64" y="73" width="138" height="38"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="tintColor" systemColor="labelColor"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="Wear to Find">
+                                                            <attributes>
+                                                                <font key="NSFont" size="20" name="SFMono-Regular"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </buttonConfiguration>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1500" id="WKU-oc-pSV"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="vWC-Qf-5bm" secondAttribute="trailing" id="BRo-gM-tWo"/>
+                                    <constraint firstItem="vWC-Qf-5bm" firstAttribute="leading" secondItem="JHT-No-mfS" secondAttribute="leading" id="sDU-MU-z5B"/>
+                                    <constraint firstItem="vWC-Qf-5bm" firstAttribute="top" secondItem="JHT-No-mfS" secondAttribute="top" id="tjj-4u-vgt"/>
+                                    <constraint firstAttribute="bottom" secondItem="vWC-Qf-5bm" secondAttribute="bottom" id="wGe-nN-SvE"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="oiC-cH-4kd"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="JHT-No-mfS" firstAttribute="trailing" secondItem="oiC-cH-4kd" secondAttribute="trailing" id="4f0-43-lQu"/>
+                            <constraint firstAttribute="bottom" secondItem="JHT-No-mfS" secondAttribute="bottom" id="Itc-F2-Amz"/>
+                            <constraint firstItem="JHT-No-mfS" firstAttribute="top" secondItem="KbD-r7-1o2" secondAttribute="top" id="OFq-0c-bn7"/>
+                            <constraint firstItem="JHT-No-mfS" firstAttribute="leading" secondItem="oiC-cH-4kd" secondAttribute="leading" id="VDd-Zz-oqw"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="hyU-PL-Mdg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="k2h-br-74q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="752.67857142857144"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="twA-iE-m3m">
@@ -110,6 +169,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="4ET-Nf-yxk"/>
+                    <value key="contentSizeForViewInPopover" type="size" width="415" height="842"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fr9-zN-cNf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
