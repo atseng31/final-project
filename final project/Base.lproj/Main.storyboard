@@ -17,10 +17,32 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Take The Quiz" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uC3-WA-Ghm">
-                                <rect key="frame" x="96" y="402" width="224" height="35"/>
+                                <rect key="frame" x="96" y="342" width="225" height="35"/>
                                 <fontDescription key="fontDescription" name="GillSans-Bold" family="Gill Sans" pointSize="30"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XOa-0n-43w">
+                                <rect key="frame" x="96" y="498" width="224" height="56"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" cornerStyle="capsule">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" systemColor="secondarySystemGroupedBackgroundColor"/>
+                                        <color key="strokeColor" systemColor="labelColor"/>
+                                    </backgroundConfiguration>
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="START">
+                                            <attributes>
+                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <font key="NSFont" size="35" name="GillSans"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="Efs-EQ-Koi" kind="show" id="ehs-7e-oJZ"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" adjustsImageSizeForAccessibilityContentSizeCategory="YES" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m9d-1b-rvw">
                                 <rect key="frame" x="20" y="52" width="28" height="28"/>
                                 <edgeInsets key="layoutMargins" top="8" left="-8" bottom="8" right="8"/>
@@ -66,7 +88,7 @@
                                 </buttonConfiguration>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Answer a few questions to find the right fashion style for you!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9rg-Xc-JYO">
-                                <rect key="frame" x="96" y="445" width="224" height="105"/>
+                                <rect key="frame" x="88" y="385" width="241" height="105"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="105" id="07b-rt-c47"/>
                                 </constraints>
@@ -74,50 +96,28 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XOa-0n-43w">
-                                <rect key="frame" x="96" y="558" width="224" height="56"/>
-                                <color key="tintColor" systemColor="labelColor"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" cornerStyle="capsule">
-                                    <backgroundConfiguration key="background">
-                                        <color key="backgroundColor" systemColor="secondarySystemGroupedBackgroundColor"/>
-                                        <color key="strokeColor" systemColor="labelColor"/>
-                                    </backgroundConfiguration>
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="START">
-                                            <attributes>
-                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                                <font key="NSFont" size="35" name="GillSans"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="Efs-EQ-Koi" kind="show" id="ehs-7e-oJZ"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.79215681550000006" green="0.91372549530000002" blue="0.92156863209999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <color key="tintColor" red="0.79215681550000006" green="0.91372549530000002" blue="0.92156863209999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="odv-bO-Vb9" secondAttribute="trailing" constant="27" id="2ig-qK-jqJ"/>
-                            <constraint firstItem="uC3-WA-Ghm" firstAttribute="top" secondItem="vZW-uO-Dk0" secondAttribute="bottom" constant="312" id="2wl-Xc-3qP"/>
+                            <constraint firstItem="uC3-WA-Ghm" firstAttribute="top" secondItem="vZW-uO-Dk0" secondAttribute="bottom" constant="252" id="2wl-Xc-3qP"/>
                             <constraint firstItem="9rg-Xc-JYO" firstAttribute="top" secondItem="uC3-WA-Ghm" secondAttribute="bottom" constant="8" id="8as-2d-DBp"/>
                             <constraint firstItem="9rg-Xc-JYO" firstAttribute="centerX" secondItem="uC3-WA-Ghm" secondAttribute="centerX" id="BWC-yi-0YM"/>
-                            <constraint firstItem="XOa-0n-43w" firstAttribute="leading" secondItem="9rg-Xc-JYO" secondAttribute="leading" id="HI9-Fb-w7T"/>
+                            <constraint firstItem="XOa-0n-43w" firstAttribute="leading" secondItem="9rg-Xc-JYO" secondAttribute="leading" constant="8" id="HI9-Fb-w7T"/>
                             <constraint firstItem="vZW-uO-Dk0" firstAttribute="leading" secondItem="m9d-1b-rvw" secondAttribute="leading" constant="29" id="Hs0-3y-RZd"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="9rg-Xc-JYO" secondAttribute="trailing" constant="94" id="JZL-bE-fzS"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="XOa-0n-43w" secondAttribute="bottom" constant="248" id="LxM-6R-kHa"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="9rg-Xc-JYO" secondAttribute="trailing" constant="85" id="JZL-bE-fzS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="XOa-0n-43w" secondAttribute="bottom" constant="308" id="LxM-6R-kHa"/>
                             <constraint firstItem="odv-bO-Vb9" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="m9d-1b-rvw" secondAttribute="trailing" constant="8" symbolic="YES" id="RdJ-ns-zzm"/>
                             <constraint firstItem="XOa-0n-43w" firstAttribute="top" secondItem="9rg-Xc-JYO" secondAttribute="bottom" constant="8" symbolic="YES" id="Sm8-ge-DcS"/>
                             <constraint firstItem="odv-bO-Vb9" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="4" id="Yqi-KR-DvH"/>
                             <constraint firstItem="vZW-uO-Dk0" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="8" id="Zsd-xh-sip"/>
                             <constraint firstItem="vZW-uO-Dk0" firstAttribute="top" secondItem="m9d-1b-rvw" secondAttribute="top" id="beL-nN-I1K"/>
                             <constraint firstItem="vZW-uO-Dk0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="49" id="dYY-xM-591"/>
-                            <constraint firstItem="9rg-Xc-JYO" firstAttribute="leading" secondItem="uC3-WA-Ghm" secondAttribute="leading" id="ggg-H1-FVc"/>
+                            <constraint firstItem="9rg-Xc-JYO" firstAttribute="leading" secondItem="uC3-WA-Ghm" secondAttribute="leading" constant="-8" id="ggg-H1-FVc"/>
                             <constraint firstItem="odv-bO-Vb9" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="vZW-uO-Dk0" secondAttribute="trailing" constant="8" symbolic="YES" id="iui-l8-itJ"/>
-                            <constraint firstItem="XOa-0n-43w" firstAttribute="trailing" secondItem="9rg-Xc-JYO" secondAttribute="trailing" id="tkd-Je-Dgs"/>
+                            <constraint firstItem="XOa-0n-43w" firstAttribute="trailing" secondItem="9rg-Xc-JYO" secondAttribute="trailing" constant="-9" id="tkd-Je-Dgs"/>
                             <constraint firstItem="uC3-WA-Ghm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="96" id="vFb-fT-hba"/>
                         </constraints>
                     </view>
@@ -140,6 +140,16 @@
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vWC-Qf-5bm">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LVr-34-MCh">
+                                                <rect key="frame" x="21" y="52" width="240" height="128"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="r1Y-Yb-uH7">
+                                                <rect key="frame" x="87" y="425" width="240" height="128"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                        </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
                                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="1500" id="Oyp-wC-vdr"/>
