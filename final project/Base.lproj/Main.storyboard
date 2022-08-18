@@ -765,8 +765,8 @@ Zara</mutableString>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstItem="x7g-uy-0qE" firstAttribute="top" secondItem="Yit-3f-nCG" secondAttribute="top" constant="215" id="Rcm-YY-bLA"/>
-                                    <constraint firstItem="x7g-uy-0qE" firstAttribute="leading" secondItem="Yit-3f-nCG" secondAttribute="leading" constant="156" id="WE0-KQ-f2R"/>
+                                    <constraint firstItem="x7g-uy-0qE" firstAttribute="top" secondItem="Yit-3f-nCG" secondAttribute="top" constant="4" id="Rcm-YY-bLA"/>
+                                    <constraint firstItem="x7g-uy-0qE" firstAttribute="leading" secondItem="Yit-3f-nCG" secondAttribute="leading" constant="32" id="WE0-KQ-f2R"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -835,9 +835,11 @@ Zara</mutableString>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qqv-lJ-bQJ">
                                 <rect key="frame" x="0.0" y="120" width="414" height="776"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="29" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wbN-Df-Zg8">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="29" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wbN-Df-Zg8">
                                         <rect key="frame" x="23" y="19" width="368" height="715"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="715" id="kdd-vB-10Q"/>
+                                        </constraints>
                                         <mutableString key="text">YOU GOT STREETWEAR/CASUAL!!
 
 From the results of the quiz we feel that your sense if style reflects our casual/streetwear inventory! We feel that you prefer to dress comfy but still really cute with big pants and cute tops. Feel free to look at the stores below to find clothes fitting towards you! 
@@ -864,6 +866,10 @@ Missguided
                                     </label>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="wbN-Df-Zg8" firstAttribute="centerX" secondItem="qqv-lJ-bQJ" secondAttribute="centerX" id="Cz4-zT-KNo"/>
+                                    <constraint firstItem="wbN-Df-Zg8" firstAttribute="bottom" secondItem="qqv-lJ-bQJ" secondAttribute="bottomMargin" id="JWb-gF-bWr"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="1ai-60-Qxy"/>
@@ -931,9 +937,11 @@ Missguided
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dNH-g3-lsb">
                                 <rect key="frame" x="0.0" y="120" width="414" height="776"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="25" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J1r-sf-gZX">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="25" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J1r-sf-gZX">
                                         <rect key="frame" x="20" y="8" width="375" height="715"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="715" id="Zkz-Gc-Da1"/>
+                                        </constraints>
                                         <mutableString key="text">YOU GOT TRENDY WEAR!!
 
 From your results we think you love fun patterns and bright colours on your clothes. We love to see your bright personality show in your clothes!! We feel these stores are best suited for you!
@@ -955,6 +963,10 @@ Missguided</mutableString>
                                     </label>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="J1r-sf-gZX" firstAttribute="centerX" secondItem="dNH-g3-lsb" secondAttribute="centerX" id="aVb-hx-PiD"/>
+                                    <constraint firstItem="J1r-sf-gZX" firstAttribute="top" secondItem="dNH-g3-lsb" secondAttribute="topMargin" id="feo-dK-aKr"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="bbB-fv-K4B"/>
@@ -1022,9 +1034,11 @@ Missguided</mutableString>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nCc-JO-HGf">
                                 <rect key="frame" x="0.0" y="120" width="414" height="776"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="26" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OEQ-c7-OtQ">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="26" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OEQ-c7-OtQ">
                                         <rect key="frame" x="22" y="0.0" width="371" height="761"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="761" id="8Ka-k3-63D"/>
+                                        </constraints>
                                         <mutableString key="text">YOU GOT ATHLETIC WEAR!!
 
 From your results we feel you are most comfortable in athletic/athleisure wear! We think your feel your best when in workout clothes or sweatpants!!  We feel these stores are best suited for you!
@@ -1047,6 +1061,11 @@ Roots</mutableString>
                                     </label>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="OEQ-c7-OtQ" firstAttribute="top" secondItem="nCc-JO-HGf" secondAttribute="top" id="htq-t1-lYg"/>
+                                    <constraint firstItem="OEQ-c7-OtQ" firstAttribute="centerX" secondItem="nCc-JO-HGf" secondAttribute="centerX" id="pQx-Ig-cdJ"/>
+                                    <constraint firstItem="OEQ-c7-OtQ" firstAttribute="leading" secondItem="nCc-JO-HGf" secondAttribute="leading" constant="22" id="qxr-p0-HyO"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="qOs-Qd-WbZ"/>
@@ -1079,7 +1098,7 @@ Roots</mutableString>
         <segue reference="6YS-Sz-90O"/>
         <segue reference="1t8-fC-dVl"/>
         <segue reference="DqN-mL-LbY"/>
-        <segue reference="Kfr-ap-fPm"/>
+        <segue reference="8rb-PE-AnM"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="2976215-1" width="28" height="28"/>
