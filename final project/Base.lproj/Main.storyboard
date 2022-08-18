@@ -321,9 +321,8 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6qW-9R-ecZ">
-                                        <rect key="frame" x="41" y="245" width="138" height="76"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6qW-9R-ecZ">
+                                        <rect key="frame" x="41" y="274" width="138" height="76"/>
                                         <color key="tintColor" systemColor="labelColor"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" subtitle="">
@@ -339,9 +338,11 @@
                                             <segue destination="gng-bW-kPd" kind="show" id="FTI-8R-ZMg"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b1R-PG-vdE">
-                                        <rect key="frame" x="202" y="255" width="172" height="56"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b1R-PG-vdE">
+                                        <rect key="frame" x="202" y="283" width="172" height="56"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="172" id="EFQ-BZ-Y2C"/>
+                                        </constraints>
                                         <color key="tintColor" systemColor="labelColor"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain">
@@ -357,9 +358,8 @@
                                             <segue destination="gng-bW-kPd" kind="show" id="wC0-NC-cqj"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L2e-pf-jFU">
-                                        <rect key="frame" x="63" y="391" width="95" height="44"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L2e-pf-jFU">
+                                        <rect key="frame" x="63" y="475" width="95" height="44"/>
                                         <color key="tintColor" systemColor="labelColor"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain">
@@ -375,9 +375,8 @@
                                             <segue destination="gng-bW-kPd" kind="show" id="6YS-Sz-90O"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FMi-CL-3m6">
-                                        <rect key="frame" x="224" y="391" width="129" height="44"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FMi-CL-3m6">
+                                        <rect key="frame" x="224" y="475" width="129" height="44"/>
                                         <color key="tintColor" systemColor="labelColor"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain">
@@ -396,9 +395,18 @@
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
+                                    <constraint firstItem="FMi-CL-3m6" firstAttribute="baseline" secondItem="L2e-pf-jFU" secondAttribute="baseline" id="8gK-rx-10A"/>
+                                    <constraint firstItem="b1R-PG-vdE" firstAttribute="top" secondItem="dgp-5c-JMe" secondAttribute="bottom" constant="106" id="CTX-th-qjc"/>
                                     <constraint firstItem="dgp-5c-JMe" firstAttribute="centerX" secondItem="Rj6-QJ-OLV" secondAttribute="centerX" id="EXJ-Cw-e1n"/>
+                                    <constraint firstItem="b1R-PG-vdE" firstAttribute="trailing" secondItem="dgp-5c-JMe" secondAttribute="trailing" id="HVR-VT-kJ1"/>
+                                    <constraint firstAttribute="trailing" secondItem="FMi-CL-3m6" secondAttribute="trailing" constant="62" id="HWm-of-0sx"/>
+                                    <constraint firstItem="b1R-PG-vdE" firstAttribute="baseline" secondItem="6qW-9R-ecZ" secondAttribute="baseline" constant="-1" id="MxP-Np-Ba7"/>
+                                    <constraint firstAttribute="bottom" secondItem="FMi-CL-3m6" secondAttribute="bottom" constant="257" id="N5S-yC-fqj"/>
                                     <constraint firstItem="dgp-5c-JMe" firstAttribute="leading" secondItem="Rj6-QJ-OLV" secondAttribute="leading" constant="41" id="TZZ-Jv-GT8"/>
                                     <constraint firstItem="dgp-5c-JMe" firstAttribute="top" secondItem="Rj6-QJ-OLV" secondAttribute="top" constant="63" id="Tgi-Wb-S7o"/>
+                                    <constraint firstItem="FMi-CL-3m6" firstAttribute="leading" secondItem="L2e-pf-jFU" secondAttribute="trailing" constant="66" id="f9a-hj-os4"/>
+                                    <constraint firstItem="b1R-PG-vdE" firstAttribute="centerX" secondItem="FMi-CL-3m6" secondAttribute="centerX" id="fkB-aL-vQw"/>
+                                    <constraint firstItem="b1R-PG-vdE" firstAttribute="leading" secondItem="6qW-9R-ecZ" secondAttribute="trailing" constant="23" id="u14-3k-NPP"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -599,9 +607,8 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CGV-nf-GKK">
-                                        <rect key="frame" x="41" y="218" width="74" height="49"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CGV-nf-GKK">
+                                        <rect key="frame" x="70" y="268" width="74" height="49"/>
                                         <color key="tintColor" systemColor="labelColor"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain">
@@ -617,9 +624,8 @@
                                             <segue destination="emC-Pp-2FK" kind="show" id="3Pk-8Q-WFt"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Ij-Gl-OS5">
-                                        <rect key="frame" x="271" y="218" width="103" height="49"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Ij-Gl-OS5">
+                                        <rect key="frame" x="250" y="268" width="103" height="49"/>
                                         <color key="tintColor" systemColor="labelColor"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain">
@@ -635,9 +641,8 @@
                                             <segue destination="jOB-pD-ruy" kind="show" id="a6W-CK-QXf"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z04-u1-5dA">
-                                        <rect key="frame" x="253" y="328" width="121" height="49"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z04-u1-5dA">
+                                        <rect key="frame" x="232" y="481" width="121" height="49"/>
                                         <color key="tintColor" systemColor="labelColor"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain">
@@ -653,9 +658,8 @@
                                             <segue destination="gub-k2-R7T" kind="show" id="fFv-D5-h7h"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G0b-Cj-9FB">
-                                        <rect key="frame" x="41" y="328" width="84" height="49"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G0b-Cj-9FB">
+                                        <rect key="frame" x="70" y="481" width="84" height="49"/>
                                         <color key="tintColor" systemColor="labelColor"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain">
@@ -675,8 +679,18 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstItem="iVF-fL-pOm" firstAttribute="leading" secondItem="wye-8C-Cc1" secondAttribute="leading" constant="41" id="0LM-QP-9kp"/>
+                                    <constraint firstItem="CGV-nf-GKK" firstAttribute="leading" secondItem="G0b-Cj-9FB" secondAttribute="leading" id="AqA-NJ-Ssw"/>
+                                    <constraint firstAttribute="bottom" secondItem="z04-u1-5dA" secondAttribute="bottom" constant="246" id="BIa-RB-UTB"/>
+                                    <constraint firstItem="4Ij-Gl-OS5" firstAttribute="top" secondItem="iVF-fL-pOm" secondAttribute="bottom" constant="91" id="IPo-nW-bj6"/>
+                                    <constraint firstItem="z04-u1-5dA" firstAttribute="baseline" secondItem="G0b-Cj-9FB" secondAttribute="baseline" id="LFZ-xK-C1F"/>
+                                    <constraint firstItem="4Ij-Gl-OS5" firstAttribute="trailing" secondItem="iVF-fL-pOm" secondAttribute="trailing" constant="-21" id="MTc-71-f6e"/>
+                                    <constraint firstItem="4Ij-Gl-OS5" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="CGV-nf-GKK" secondAttribute="trailing" constant="8" symbolic="YES" id="Pcs-TQ-gmw"/>
+                                    <constraint firstItem="4Ij-Gl-OS5" firstAttribute="trailing" secondItem="z04-u1-5dA" secondAttribute="trailing" id="eZr-pf-zpU"/>
+                                    <constraint firstItem="CGV-nf-GKK" firstAttribute="leading" secondItem="iVF-fL-pOm" secondAttribute="leading" constant="29" id="hTa-OZ-VU9"/>
                                     <constraint firstItem="iVF-fL-pOm" firstAttribute="centerX" secondItem="wye-8C-Cc1" secondAttribute="centerX" id="iRT-Fu-lRQ"/>
+                                    <constraint firstItem="z04-u1-5dA" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="G0b-Cj-9FB" secondAttribute="trailing" constant="8" symbolic="YES" id="mYn-mo-HpF"/>
                                     <constraint firstItem="iVF-fL-pOm" firstAttribute="top" secondItem="wye-8C-Cc1" secondAttribute="top" constant="63" id="uns-T8-0Zc"/>
+                                    <constraint firstItem="4Ij-Gl-OS5" firstAttribute="baseline" secondItem="CGV-nf-GKK" secondAttribute="baseline" id="wSn-Ws-reO"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -745,7 +759,7 @@
                                 <rect key="frame" x="0.0" y="120" width="414" height="776"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="33" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x7g-uy-0qE">
-                                        <rect key="frame" x="32" y="4" width="351" height="768"/>
+                                        <rect key="frame" x="32" y="8" width="351" height="747"/>
                                         <mutableString key="text">YOU GOT DRESSY!
 From the results of the quiz we feel your style fits more into the dressy side of clothing. This makes us believe you're more into dresses and skirts and maybe the occasional leather pants! We feel these stores are best suited for you!
 
@@ -765,8 +779,9 @@ Zara</mutableString>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstItem="x7g-uy-0qE" firstAttribute="top" secondItem="Yit-3f-nCG" secondAttribute="top" constant="4" id="Rcm-YY-bLA"/>
-                                    <constraint firstItem="x7g-uy-0qE" firstAttribute="leading" secondItem="Yit-3f-nCG" secondAttribute="leading" constant="32" id="WE0-KQ-f2R"/>
+                                    <constraint firstItem="x7g-uy-0qE" firstAttribute="top" secondItem="Yit-3f-nCG" secondAttribute="top" constant="8" id="Rcm-YY-bLA"/>
+                                    <constraint firstItem="x7g-uy-0qE" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Yit-3f-nCG" secondAttribute="leading" constant="20" symbolic="YES" id="WE0-KQ-f2R"/>
+                                    <constraint firstAttribute="trailing" secondItem="x7g-uy-0qE" secondAttribute="trailing" constant="31" id="hE6-mg-5bd"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -835,10 +850,10 @@ Zara</mutableString>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qqv-lJ-bQJ">
                                 <rect key="frame" x="0.0" y="120" width="414" height="776"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="29" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wbN-Df-Zg8">
-                                        <rect key="frame" x="23" y="19" width="368" height="715"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="31" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wbN-Df-Zg8">
+                                        <rect key="frame" x="20" y="19" width="375" height="715"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="715" id="kdd-vB-10Q"/>
+                                            <constraint firstAttribute="height" constant="715" id="EkX-JH-ZBj"/>
                                         </constraints>
                                         <mutableString key="text">YOU GOT STREETWEAR/CASUAL!!
 
@@ -867,8 +882,9 @@ Missguided
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstItem="wbN-Df-Zg8" firstAttribute="centerX" secondItem="qqv-lJ-bQJ" secondAttribute="centerX" id="Cz4-zT-KNo"/>
-                                    <constraint firstItem="wbN-Df-Zg8" firstAttribute="bottom" secondItem="qqv-lJ-bQJ" secondAttribute="bottomMargin" id="JWb-gF-bWr"/>
+                                    <constraint firstItem="wbN-Df-Zg8" firstAttribute="leading" secondItem="qqv-lJ-bQJ" secondAttribute="leading" constant="20" id="7kQ-23-cia"/>
+                                    <constraint firstItem="wbN-Df-Zg8" firstAttribute="bottom" secondItem="qqv-lJ-bQJ" secondAttribute="bottomMargin" id="a60-uF-m7l"/>
+                                    <constraint firstItem="wbN-Df-Zg8" firstAttribute="centerX" secondItem="qqv-lJ-bQJ" secondAttribute="centerX" id="sVY-vJ-oIu"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -905,7 +921,7 @@ Missguided
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XYM-Sb-L9Q">
-                                <rect key="frame" x="7" y="51" width="52" height="42"/>
+                                <rect key="frame" x="7" y="50" width="52" height="42"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="2976215-1" title=""/>
                                 <connections>
@@ -913,7 +929,7 @@ Missguided
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BXT-TS-T1Y">
-                                <rect key="frame" x="51" y="48.5" width="166" height="43.5"/>
+                                <rect key="frame" x="51" y="47" width="166" height="43.5"/>
                                 <color key="tintColor" systemColor="labelColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain">
@@ -930,17 +946,17 @@ Missguided
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bFH-YK-UoJ">
-                                <rect key="frame" x="342" y="51" width="52" height="42"/>
+                                <rect key="frame" x="342" y="51" width="52" height="40.5"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="3144456-1" title=""/>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dNH-g3-lsb">
-                                <rect key="frame" x="0.0" y="120" width="414" height="776"/>
+                                <rect key="frame" x="0.0" y="119" width="414" height="777"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="25" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J1r-sf-gZX">
-                                        <rect key="frame" x="20" y="8" width="375" height="715"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="28" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J1r-sf-gZX">
+                                        <rect key="frame" x="20" y="17" width="375" height="729"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="715" id="Zkz-Gc-Da1"/>
+                                            <constraint firstAttribute="height" constant="729" id="rmk-F2-XUJ"/>
                                         </constraints>
                                         <mutableString key="text">YOU GOT TRENDY WEAR!!
 
@@ -964,8 +980,10 @@ Missguided</mutableString>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstItem="J1r-sf-gZX" firstAttribute="centerX" secondItem="dNH-g3-lsb" secondAttribute="centerX" id="aVb-hx-PiD"/>
-                                    <constraint firstItem="J1r-sf-gZX" firstAttribute="top" secondItem="dNH-g3-lsb" secondAttribute="topMargin" id="feo-dK-aKr"/>
+                                    <constraint firstItem="J1r-sf-gZX" firstAttribute="centerY" secondItem="dNH-g3-lsb" secondAttribute="centerY" constant="-7" id="7Bp-yx-P50"/>
+                                    <constraint firstItem="J1r-sf-gZX" firstAttribute="top" secondItem="dNH-g3-lsb" secondAttribute="top" constant="17" id="Lor-hZ-1Wm"/>
+                                    <constraint firstItem="J1r-sf-gZX" firstAttribute="leading" secondItem="dNH-g3-lsb" secondAttribute="leading" constant="20" id="P9T-Xi-5fB"/>
+                                    <constraint firstItem="J1r-sf-gZX" firstAttribute="centerX" secondItem="dNH-g3-lsb" secondAttribute="centerX" id="Rf6-62-c4N"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -1097,8 +1115,8 @@ Roots</mutableString>
         <segue reference="UaX-F3-sEU"/>
         <segue reference="6YS-Sz-90O"/>
         <segue reference="1t8-fC-dVl"/>
-        <segue reference="DqN-mL-LbY"/>
-        <segue reference="8rb-PE-AnM"/>
+        <segue reference="HYU-mU-T6S"/>
+        <segue reference="8VK-8S-xyV"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="2976215-1" width="28" height="28"/>
