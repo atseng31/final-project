@@ -1238,10 +1238,9 @@ OUR GOAL is to assist women in discovering what they like to wear. For anyone wi
                                         <rect key="frame" x="283" y="560" width="90" height="102"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="19" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yiz-33-tng">
-                                        <rect key="frame" x="41" y="279" width="332" height="130"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="We think you fit into the streetwear/casual style. You are mainly into comfortable clothes but versatile!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="19" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yiz-33-tng">
+                                        <rect key="frame" x="41" y="253" width="332" height="130"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <string key="text">We think you fit into the streetwear/casual style. You are mainly into dresses and skirts and maybe the occasional leather pants! </string>
                                         <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="18"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -1355,7 +1354,7 @@ OUR GOAL is to assist women in discovering what they like to wear. For anyone wi
                                         <rect key="frame" x="283" y="560" width="90" height="102"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="We think you fit into the trendy style. You are mainly into dresses and skirts and maybe the occasional leather pants! " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="19" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="If6-7b-EmJ">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="We think you fit into the trendy style. You are mainly into the most popluar clothing " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="19" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="If6-7b-EmJ">
                                         <rect key="frame" x="41" y="236" width="332" height="130"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="18"/>
@@ -1438,10 +1437,10 @@ OUR GOAL is to assist women in discovering what they like to wear. For anyone wi
                                         <rect key="frame" x="108" y="24" width="199" height="164"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="We think you fit into the athletic wear style. You are mainly into dresses and skirts and maybe the occasional leather pants! " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="19" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LVE-Oj-SjG">
-                                        <rect key="frame" x="41" y="289" width="332" height="130"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="YOUR STYLE IS ATHLETIC WEAR!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6aM-Qq-4Nl">
+                                        <rect key="frame" x="55" y="209" width="305" height="72"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="18"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="25"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -1471,10 +1470,10 @@ OUR GOAL is to assist women in discovering what they like to wear. For anyone wi
                                         <rect key="frame" x="283" y="560" width="90" height="102"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="YOUR STYLE IS ATHLETIC WEAR!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6aM-Qq-4Nl">
-                                        <rect key="frame" x="55" y="209" width="305" height="72"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="We think you fit into the athletic wear style. You are mainly into leggings, sweatpants, and sneakers!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="19" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LVE-Oj-SjG">
+                                        <rect key="frame" x="41" y="253" width="332" height="130"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="25"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="18"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -1508,14 +1507,14 @@ OUR GOAL is to assist women in discovering what they like to wear. For anyone wi
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="GEf-HT-132"/>
+        <segue reference="7zr-1H-YtD"/>
         <segue reference="Q7z-YW-BTj"/>
         <segue reference="YE6-kZ-Bld"/>
         <segue reference="IR0-nu-FKc"/>
         <segue reference="1t8-fC-dVl"/>
-        <segue reference="r9U-jT-0Ey"/>
+        <segue reference="tAe-I0-VME"/>
         <segue reference="UDv-po-uwK"/>
-        <segue reference="UXr-Fo-yMF"/>
+        <segue reference="Y1z-vg-4Yv"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="2976215-1" width="28" height="28"/>
