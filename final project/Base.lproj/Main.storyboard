@@ -640,7 +640,7 @@
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" image="Screen Shot 2022-08-18 at 11.38.14 AM"/>
                                         <connections>
-                                            <segue destination="emC-Pp-2FK" kind="show" id="XSg-qC-Zcm"/>
+                                            <segue destination="emC-Pp-2FK" kind="show" id="5bm-Yq-0VN"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1GR-Cm-4jU">
@@ -649,6 +649,9 @@
                                         <color key="tintColor" systemColor="labelColor"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" image="Screen Shot 2022-08-18 at 11.52.30 AM" title=""/>
+                                        <connections>
+                                            <segue destination="biC-ap-ivT" kind="show" id="Lnl-b2-kGR"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ATe-WH-MFE">
                                         <rect key="frame" x="37" y="431" width="137" height="166"/>
@@ -656,6 +659,9 @@
                                         <color key="tintColor" systemColor="labelColor"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" image="Screen Shot 2022-08-18 at 11.41.23 AM" title=""/>
+                                        <connections>
+                                            <segue destination="Bja-UH-CmG" kind="show" id="M8S-tW-am9"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C2J-9z-6Bo">
                                         <rect key="frame" x="237" y="424" width="137" height="181"/>
@@ -663,6 +669,9 @@
                                         <color key="tintColor" systemColor="labelColor"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" image="Screen Shot 2022-08-18 at 11.55.33 AM" title=""/>
+                                        <connections>
+                                            <segue destination="P2p-g8-eib" kind="show" id="dVu-wp-3SE"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -1499,14 +1508,14 @@ OUR GOAL is to assist women in discovering what they like to wear. For anyone wi
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="CBO-B1-KKH"/>
+        <segue reference="GEf-HT-132"/>
         <segue reference="Q7z-YW-BTj"/>
         <segue reference="YE6-kZ-Bld"/>
         <segue reference="IR0-nu-FKc"/>
         <segue reference="1t8-fC-dVl"/>
-        <segue reference="GBB-hv-h4v"/>
+        <segue reference="r9U-jT-0Ey"/>
         <segue reference="UDv-po-uwK"/>
-        <segue reference="Cas-6L-SYp"/>
+        <segue reference="UXr-Fo-yMF"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="2976215-1" width="28" height="28"/>
