@@ -322,13 +322,13 @@
                                     <segue destination="Efs-EQ-Koi" kind="show" id="UDv-po-uwK"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="SHOPPING CART" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Jb-kz-eXz">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SHOPPING CART" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Jb-kz-eXz">
                                 <rect key="frame" x="47" y="241" width="221" height="39"/>
                                 <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l4n-gr-APW">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l4n-gr-APW">
                                 <rect key="frame" x="47" y="241" width="221" height="39"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="39" id="QJu-AP-eYc"/>
@@ -369,6 +369,9 @@
                                         </fragment>
                                     </attributedString>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="scf-iq-DDV"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="8sR-Cg-GAK"/>
@@ -389,7 +392,7 @@
                             <constraint firstItem="Gr1-tM-yCu" firstAttribute="top" secondItem="4YG-bb-mm6" secondAttribute="top" id="P2Q-Cy-4Bm"/>
                             <constraint firstItem="l4n-gr-APW" firstAttribute="top" secondItem="5Jb-kz-eXz" secondAttribute="top" id="UFI-Tx-qgl"/>
                             <constraint firstItem="Gr1-tM-yCu" firstAttribute="trailing" secondItem="4YG-bb-mm6" secondAttribute="trailing" id="VWa-EN-J6g"/>
-                            <constraint firstItem="8sR-Cg-GAK" firstAttribute="trailing" secondItem="l4n-gr-APW" secondAttribute="trailing" constant="173" id="ceo-F2-lbr"/>
+                            <constraint firstItem="8sR-Cg-GAK" firstAttribute="trailing" secondItem="l4n-gr-APW" secondAttribute="trailing" constant="146" id="ceo-F2-lbr"/>
                             <constraint firstItem="l4n-gr-APW" firstAttribute="top" secondItem="4YG-bb-mm6" secondAttribute="bottom" constant="29" id="frB-Qf-aJ6"/>
                             <constraint firstItem="NAQ-Kf-1kL" firstAttribute="bottom" secondItem="7tu-53-hw0" secondAttribute="bottom" id="gSg-uC-tCf"/>
                             <constraint firstItem="l4n-gr-APW" firstAttribute="trailing" secondItem="5Jb-kz-eXz" secondAttribute="trailing" id="gXS-k5-5BG"/>
@@ -1507,14 +1510,14 @@ OUR GOAL is to assist women in discovering what they like to wear. For anyone wi
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="7zr-1H-YtD"/>
+        <segue reference="HeW-Qe-ySv"/>
         <segue reference="Q7z-YW-BTj"/>
         <segue reference="YE6-kZ-Bld"/>
         <segue reference="IR0-nu-FKc"/>
         <segue reference="1t8-fC-dVl"/>
-        <segue reference="tAe-I0-VME"/>
+        <segue reference="1N7-dN-G5R"/>
         <segue reference="UDv-po-uwK"/>
-        <segue reference="Y1z-vg-4Yv"/>
+        <segue reference="scf-iq-DDV"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="2976215-1" width="28" height="28"/>
